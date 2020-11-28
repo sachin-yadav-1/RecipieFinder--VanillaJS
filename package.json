@@ -1,0 +1,21 @@
+{
+	"name": "find-recipies",
+	"version": "1.0.0",
+	"description": "An app that let you search recipies.",
+	"default": "index.html",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html --dist-dir ./dist"
+	},
+	"author": "sachin-yadav",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel": "^2.0.0-beta.1",
+		"sass": "^1.26.10"
+	},
+	"dependencies": {
+		"core-js": "^3.8.0",
+		"fractional": "^1.0.0",
+		"regenerator-runtime": "^0.13.7"
+	}
+}
